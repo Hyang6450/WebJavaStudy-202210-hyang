@@ -4,6 +4,7 @@ import j17_스태틱.Product;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 
 
@@ -84,6 +85,8 @@ public class StringList {
         for(Object object : objects){
             System.out.println(object);
         }
+
+
     }
 
     public static void printCollection(Collection collection){
